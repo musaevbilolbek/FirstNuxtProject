@@ -1,0 +1,285 @@
+.programma {
+  height: 170px;
+  width: 100%;
+  background: #078b6c;
+}
+.prog {
+  padding: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 140%;
+  color: #ffffff;
+}
+h1 {
+  margin-top: 30px;
+}
+
+.column1 {
+  padding: 12px 20px;
+  gap: 10px;
+  height: 90px;
+  background: #b5ccc4;
+  display: flex;
+}
+.green {
+  padding: 10px 35px;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  background: #06b48b;
+  border-radius: 4px;
+}
+.mainhole {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  color: #1c2f3f;
+  margin-bottom: 15px;
+}
+.column1 h3 {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  color: #1c2f3f;
+}
+
+.GeneralPartner {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.ant-tabs-nav .ant-tabs-tab:active {
+  color: #06b48b;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: #06b48b;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #06b48b;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #06b48b;
+}
+
+.PartnerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 140px;
+  background: #ffffff;
+  border: 1px solid #c5d4e0;
+  border-radius: 4px;
+}
+.PartnerImg img {
+  width: 150px;
+  height: 100px;
+}
+.young img {
+  height: 50px;
+}
+
+.Main {
+  display: flex;
+}
+.Card img {
+  width: 290px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.Card {
+  padding: 15px 15px;
+  width: 280px;
+  height: 390px;
+  background: #ffffff;
+  border: 1px solid #c5d4e0;
+  border-radius: 4px;
+}
+.Card h1 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+.bggreen {
+  padding: 4px 4px;
+  background: #ebf3f1;
+  border-radius: 2px;
+}
+.bggreen p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  color: #078b6c;
+  opacity: 0.8;
+}
+.Card h3 {
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #1c2f3f;
+}
+.AllCard {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.GeneralPartner {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(6, 1fr);
+}
+@media (max-width: 1200px) {
+  .PartnerImg  {
+    width: 180px;
+    height: 140px;
+  }
+  .PartnerImg img {
+    width: 130px;
+    height: 86px;
+  }
+  .GeneralPartner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 992px) {
+  .PartnerImg  {
+    width: 155px;
+    height: 140px;
+  }
+  .PartnerImg img {
+    width: 120px;
+    height: 86px;
+  }
+  .GeneralPartner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .PartnerImg  {
+    width: 155px;
+    height: 140px;
+  }
+  .PartnerImg img {
+    width: 120px;
+    height: 86px;
+  }
+  .GeneralPartner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .Main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Card {
+    width: 232px;
+    height: 430px;
+  }
+  .SpeakerText h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .SpeakerText .btn1 {
+    margin-bottom: 15px;
+  }
+  .AllCard {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .PartnerImg  {
+    width: 155px;
+    height: 140px;
+  }
+  .PartnerImg img {
+    width: 120px;
+    height: 86px;
+  }
+  .GeneralPartner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Card {
+    width: 350px;
+    height: 420px;
+  }
+  .Card img {
+    width: 100%;
+    height: 240px;
+  }
+  .AllCard {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .SpeakerText h1 {
+    font-size: 25px;
+  }
+
+  .AllCard {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Card img {
+    width: 100%;
+    height: 266px;
+  }
+
+  .Card {
+    padding: 20px 20px;
+    width: 100%;
+    height: 430px;
+    padding-top: 15px;
+  }
+  .Main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .GeneralPartner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .PartnerImg  {
+    width: 180px;
+    height: 100px;
+  }
+  .PartnerImg img {
+    width: 120px;
+    height: 86px;
+  }
+
+  .btn1 {
+    margin-top: 15px;
+  }
+}
+// 1760
+// 1440-1400
+// 1200-1280
+// 992
+// 768
+// 576
+// 480
+// 375
+// 320

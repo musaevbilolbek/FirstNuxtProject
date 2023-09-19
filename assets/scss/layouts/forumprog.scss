@@ -1,0 +1,256 @@
+.ForumProg {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #059a77;
+}
+.progtitle h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+.progtitle p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.MainProg{
+  display: flex;
+}
+.btn2{
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 4px 16px;
+  background: #ffffff;
+  color: #FFFFFF;
+}
+span{
+  color: white;
+}
+.collapse-2 {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+}
+.spann{
+  color: #fff;
+}
+.line {
+  width: 840px;
+  opacity: 0.2;
+  border: 1px solid #ffffff;
+}
+
+.p-tag {
+  display: flex;
+}
+.tag {
+  display: flex;
+}
+h5 {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.p-tag p {
+  font-weight: 100;
+  font-size: 13px;
+  color: #ffffff;
+}
+.p-tag p span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-option {
+  cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.ant-collapse {
+  width: 850px;
+  background: #078b6c;
+  height: max-content;
+  border: none;
+}
+.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow
+  svg {
+  display: none;
+}
+.ant-collapse-content {
+  background: #078b6c;
+  border: none;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 20px 20px;
+  color: #ffff;
+}
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active{
+ background: none;
+}
+.ant-btn:hover, .ant-btn:focus {
+  border-color:#ffff ;
+}
+.data {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  color: #465863;
+  padding: 10px 15px 15px;
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 1.5px solid #c5d4e0;
+  border-radius: 4px;
+}
+
+.selectoption{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  color: #465863;
+  padding: 10px 15px 15px;
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 1.5px solid #c5d4e0;
+  border-radius: 4px;
+}
+.end-regist{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  width: 650px;
+  height: 60px;
+background: #06B48B;
+border-radius: 4px;
+}
+.end-regist button{
+  font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+}
+.InputDiv input {
+  width: 650px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  color: #465863;
+}
+.checkbox input {
+  width: 12.5px;
+  height: 12.5px;
+  margin-right: 11px;
+}
+@media(max-width:1400px){
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px /* 32px */;
+    padding-left: 24px /* 32px */;
+  }
+  
+}
+
+@media (max-width: 1280px) {
+ 
+  .progtitle p {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .MainProg {
+    display: flex;
+  
+  }
+  .progtitle{
+   margin-right: 119px;
+  }
+  .ant-collapse {
+    width: 686px;
+  }
+}
+@media (max-width: 992px) {
+  .MainProg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .progtitle{
+    margin-bottom: 20px;
+  }
+  .ant-collapse {
+    width: 919px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .progtitle{
+    margin-bottom: 20px;
+  }
+  .ant-collapse {
+    width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .MainProg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .progtitle p {
+    padding-bottom: 20px;
+  }
+
+  .ant-collapse {
+    width: 370px;
+  }
+}
+@media (max-width: 480px) {
+  .MainProg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .progtitle p {
+    padding-bottom: 20px;
+  }
+  .ant-collapse {
+    width: 370px;
+  }
+  /* // 1760
+// 1440-1400
+// 1200-1280
+// 992
+// 768
+// 576
+// 480
+// 375
+// 320 */
+}

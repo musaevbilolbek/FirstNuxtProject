@@ -1,0 +1,62 @@
+const en = {
+  ProgRamma: "Programma",
+  Regist: "Register",
+  Members: "Members",
+  Media: "Media",
+  uzbforumtext: "The Second International Pharmaceutical Forum of Uzbekistan",
+  forumtextp:
+    "The largest international event dedicated to solving the most pressing problems of the pharmaceutical industry of the new Uzbekistan",
+  month: "June 5-6",
+  toshkent: "InterContinental Tashkent",
+  firstpage: "International Pharmaceutical Forum of Uzbekistan",
+  firstpagep:
+    " The First International Pharmaceutical Forum of Uzbekistan declared itself to be a unique professional international platform for the leaders of the pharmaceutical industry, with the participation of the heads of the largest manufacturers, distributors, regulators, licensors of production technologies, lawyers and consulting specialists working in this field and many others",
+  greencolumn: "MEMBERS",
+  greencolp: "THEMATIC SESSIONS + ROUND TABLES + MASTER CLASSES",
+  greencol: "BUSINESS COMMUNICATION",
+  CardBlazon:
+    "Ministry of Investments and Foreign Trade of the Republic of Uzbekistan of Trade of the Republic of Uzbekistan",
+  CardBlazon2: "Ministry of Health of the Republic of Uzbekistan",
+  CardBlazon3:
+    "Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of the Republic of Uzbekistan",
+  CardBlazon4: "State Tax Committee",
+  CardBlazon5: "State Customs Committee",
+  CardBlazon6: "Antimonopoly Committee of Uzbekistan",
+  CardBlazon7: "Agency for Intellectual Property of the Republic of Uzbekistan",
+  CardB: "See all",
+  allsee: "See all",
+  membersforum: "Members forum",
+  maintext: "Main speakers",
+  name1: "Voitov Aziz",
+  name1p: "First Deputy Minister",
+  name1h3:
+    "Ministry of Investments and Foreign Trade of the Republic of Uzbekistan",
+  name2: "Inoyatov Amrillo",
+  name2p: "First Deputy Minister",
+  name2h3: "Ministry of Health of the Republic of Uzbekistan",
+  name3: "Qariyev Sardor",
+  name3p: "Director",
+  name3h3: "Agency for the Development of the Pharmaceutical Industry",
+  name4: "Shoraxmetov Shohrux",
+  name4p: "Chairman",
+  name4h3: "Antimonopoly Committee of the Republic of Uzbekistan",
+  name5: "Do'smatov Aziz",
+  name5p: "Direkcor",
+  name5h3:
+    "Good Practice Center of the State Unitary Enterprise of the Pharmaceutical Development Agency industries under the Ministry of Health",
+  name6: "Asqarova Muhabbat",
+  name6p: "Chairman",
+  name6h3:
+    "Association of Representative Offices of Foreign Pharmaceutical Companies and manufacturers in the Republic of Uzbekistan",
+  name7: "Erkhat Iskaliyev",
+  name7p: "Chairman",
+  name7h3: "SK-Pharmacy LLP",
+  name8: "Adriano Antonio Treve",
+  name8p: "Chairman",
+  name8h3:
+    "Central and Eastern Europe, Türkiye, Russia and Indian subcontinent",
+  name9: "Lydia Klyuchareva",
+  name9p: "Chairman",
+  name9h3: "Group of CIS countries, division OTC drugs, Bayer JSC",
+};
+export default en;
